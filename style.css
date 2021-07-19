@@ -6,20 +6,31 @@ body{
 
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: #121F3D;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-nav{
-    align-content: flex-end;
+.one{
+    display: flex;
+}
+
+.two{
+    display: flex;
+}
+
+.user{
+    margin-top: 33px;
 }
 
 section{
     background-color: #24385B;
     color: white;
     min-width: 200px;
-    min-height: 500px;
+    min-height: 500px; 
     display: flex;
     justify-content: center;
 }
