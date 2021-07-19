@@ -1,0 +1,42 @@
+body{
+    color: black;
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #121F3D;
+    color: white;
+}
+
+nav{
+    align-content: flex-end;
+}
+
+section{
+    background-color: #24385B;
+    color: white;
+    min-width: 200px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 20%;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #121F3D;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
